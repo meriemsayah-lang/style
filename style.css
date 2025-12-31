@@ -73,7 +73,7 @@ button:hover {
   color: white;
 }
 .row{
-  position:absolute
+  position:absolute;
 }
 .one{
 top:900px;
@@ -243,12 +243,15 @@ left:600px;
   right:-10px;
   text-align:center ; 
   }
- 
-  .videoclick{
+ .video-section{
+  min-height: 450px;
+ }
+ .videoclick{
     display:flex;
-    justify-content: flex-end;
+    
+    flex-direction: column;
     align-items: center;
-    gap: 10px;
+    
    
   }
   .tvideo{
@@ -299,6 +302,7 @@ left:600px;
   padding: 0px;
   transition: all 0.3s ease;
   }
+  .contact-item{ display: flex; justify-content: center; align-items: center; gap: 15px; margin-bottom: 15px; }
   
 .header{
   
