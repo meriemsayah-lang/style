@@ -34,7 +34,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(37, 90, 206);
+  background-color: rgb(171, 26, 130);
 }
 
 .scroll-word {
@@ -49,15 +49,7 @@ button:hover {
 #a{
     margin-left:200px ;
 }
-.circle {
-    width: 200px;              
-    height: 200px;
-    border-radius: 50%;      
-    box-shadow: 0 5px 10px rgba(209, 37, 128, 0.164); 
-    cursor: pointer; 
-             
-    
-  }
+
 
  .image-row {
   display: flex; 
